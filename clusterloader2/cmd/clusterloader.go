@@ -255,7 +255,15 @@ func printTestResult(name, status, errors string) {
 	logf(dashLine)
 }
 
+
 func main() {
+	if err := RunClusterLoader(os.Args[1:]); err != nil {
+        fmt.Println("Error:", err)
+        os.Exit(1)
+    }
+}
+
+func RunClusterLoader(args []string) error {
 	defer klog.Flush()
 	initFlags()
 	if err := flags.Parse(); err != nil {
@@ -414,6 +422,7 @@ func main() {
 	if failedTestItems := testReporter.GetNumberOfFailedTestItems(); failedTestItems > 0 {
 		klog.Exitf("%d tests have failed!", failedTestItems)
 	}
+	return nil
 }
 
 func runSingleTest(ctx test.Context) {
