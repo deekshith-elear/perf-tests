@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	"k8s.io/perf-tests/clusterloader2/pkg/framework"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/framework"
 )
 
 // Dump writes file with data useful for debugging.

@@ -35,13 +35,13 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/klog/v2"
-	"k8s.io/perf-tests/clusterloader2/pkg/config"
-	clerrors "k8s.io/perf-tests/clusterloader2/pkg/errors"
-	"k8s.io/perf-tests/clusterloader2/pkg/flags"
-	"k8s.io/perf-tests/clusterloader2/pkg/framework"
-	"k8s.io/perf-tests/clusterloader2/pkg/framework/client"
-	"k8s.io/perf-tests/clusterloader2/pkg/provider"
-	"k8s.io/perf-tests/clusterloader2/pkg/util"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/config"
+	clerrors "github.com/deekshith-elear/perf-tests/clusterloader2/pkg/errors"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/flags"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/framework"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/framework/client"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/provider"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/util"
 )
 
 const (

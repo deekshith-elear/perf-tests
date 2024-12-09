@@ -23,7 +23,7 @@ import (
 	ginkgoconfig "github.com/onsi/ginkgo/config"
 	ginkgoreporters "github.com/onsi/ginkgo/reporters"
 	ginkgotypes "github.com/onsi/ginkgo/types"
-	"k8s.io/perf-tests/clusterloader2/pkg/errors"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/errors"
 )
 
 type simpleReporter struct {

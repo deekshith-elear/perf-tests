@@ -24,9 +24,9 @@ import (
 	"sync"
 	"time"
 
-	"k8s.io/perf-tests/clusterloader2/api"
-	"k8s.io/perf-tests/clusterloader2/pkg/framework/client"
-	"k8s.io/perf-tests/clusterloader2/pkg/util"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/api"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/framework/client"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/util"
 
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -34,7 +34,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/klog/v2"
-	"k8s.io/perf-tests/clusterloader2/pkg/provider"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/provider"
 )
 
 const (

@@ -24,8 +24,8 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement"
-	measurementutil "k8s.io/perf-tests/clusterloader2/pkg/measurement/util"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement"
+	measurementutil "github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement/util"
 )
 
 type fakeQueryExecutor struct {

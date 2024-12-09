@@ -23,8 +23,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement/common/executors"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement/common/executors"
 )
 
 func TestCiliumEndpointPropagationDelayMeasurement(t *testing.T) {

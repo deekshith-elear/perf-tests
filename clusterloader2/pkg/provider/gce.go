@@ -25,9 +25,9 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/klog/v2"
 	sshutil "k8s.io/kubernetes/test/e2e/framework/ssh"
-	"k8s.io/perf-tests/clusterloader2/pkg/framework/client"
-	prom "k8s.io/perf-tests/clusterloader2/pkg/prometheus/clients"
-	"k8s.io/perf-tests/clusterloader2/pkg/util"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/framework/client"
+	prom "github.com/deekshith-elear/perf-tests/clusterloader2/pkg/prometheus/clients"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/util"
 )
 
 type GCEProvider struct {

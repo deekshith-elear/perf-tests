@@ -26,7 +26,7 @@ import (
 	"k8s.io/client-go/dynamic/dynamicinformer"
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/klog"
-	"k8s.io/perf-tests/clusterloader2/pkg/util"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/util"
 )
 
 // NewInformer creates a new informer.

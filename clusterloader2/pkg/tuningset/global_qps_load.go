@@ -22,7 +22,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/klog/v2"
-	"k8s.io/perf-tests/clusterloader2/api"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/api"
 
 	"golang.org/x/time/rate"
 )

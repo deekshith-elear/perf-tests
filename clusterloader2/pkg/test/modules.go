@@ -19,8 +19,8 @@ package test
 import (
 	"fmt"
 
-	"k8s.io/perf-tests/clusterloader2/api"
-	"k8s.io/perf-tests/clusterloader2/pkg/util"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/api"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/util"
 )
 
 // flattenModuleSteps computes a slice of executable steps. An executable step

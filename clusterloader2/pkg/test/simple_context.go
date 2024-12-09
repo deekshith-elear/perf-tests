@@ -21,14 +21,14 @@ import (
 	"os"
 	"path/filepath"
 
-	"k8s.io/perf-tests/clusterloader2/api"
-	"k8s.io/perf-tests/clusterloader2/pkg/chaos"
-	"k8s.io/perf-tests/clusterloader2/pkg/config"
-	"k8s.io/perf-tests/clusterloader2/pkg/framework"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement"
-	"k8s.io/perf-tests/clusterloader2/pkg/state"
-	"k8s.io/perf-tests/clusterloader2/pkg/tuningset"
-	"k8s.io/perf-tests/clusterloader2/pkg/util"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/api"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/chaos"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/config"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/framework"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/state"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/tuningset"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/util"
 )
 
 type simpleContext struct {

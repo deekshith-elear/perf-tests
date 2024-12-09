@@ -30,12 +30,12 @@ import (
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/klog/v2"
-	"k8s.io/perf-tests/clusterloader2/pkg/config"
-	"k8s.io/perf-tests/clusterloader2/pkg/flags"
-	"k8s.io/perf-tests/clusterloader2/pkg/framework"
-	"k8s.io/perf-tests/clusterloader2/pkg/framework/client"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement/util/informer"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement/util/runtimeobjects"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/config"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/flags"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/framework"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/framework/client"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement/util/informer"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement/util/runtimeobjects"
 )
 
 const (

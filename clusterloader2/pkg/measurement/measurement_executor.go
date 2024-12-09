@@ -20,8 +20,8 @@ import (
 	"fmt"
 
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/perf-tests/clusterloader2/api"
-	"k8s.io/perf-tests/clusterloader2/pkg/errors"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/api"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/errors"
 )
 
 // Execute executes a measurement, which can be a single measurement or a wrapper for multiple measurements.

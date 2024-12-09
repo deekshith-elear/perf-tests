@@ -223,7 +223,7 @@ func defaultParam(param, defaultValue interface{}) interface{} {
 }
 
 // includeFile reads file. If the path is not absolute, 'file' is relative to
-// clusterloader source file path "$GOPATH/src/k8s.io/perf-tests/clusterloader2"
+// clusterloader source file path "$GOPATH/src/github.com/deekshith-elear/perf-tests/clusterloader2"
 func includeFile(file interface{}) (string, error) {
 	fileStr, ok := file.(string)
 	if !ok {

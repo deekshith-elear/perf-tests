@@ -23,9 +23,9 @@ import (
 	"strings"
 
 	"k8s.io/klog/v2"
-	"k8s.io/perf-tests/clusterloader2/api"
-	"k8s.io/perf-tests/clusterloader2/pkg/config"
-	"k8s.io/perf-tests/clusterloader2/pkg/flags"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/api"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/config"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/flags"
 )
 
 // Modifier mutates provided test

@@ -26,8 +26,8 @@ import (
 	"k8s.io/client-go/dynamic"
 	"k8s.io/client-go/dynamic/dynamicinformer"
 	"k8s.io/client-go/tools/cache"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement"
-	"k8s.io/perf-tests/clusterloader2/pkg/util"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/util"
 )
 
 func (npm *networkPerformanceMeasurement) validate(config *measurement.Config) error {

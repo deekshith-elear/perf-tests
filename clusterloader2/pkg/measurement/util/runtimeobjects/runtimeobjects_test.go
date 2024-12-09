@@ -32,7 +32,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/kubernetes/fake"
 	"k8s.io/client-go/kubernetes/scheme"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement/util/runtimeobjects"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement/util/runtimeobjects"
 )
 
 var (

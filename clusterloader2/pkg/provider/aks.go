@@ -18,7 +18,7 @@ package provider
 
 import (
 	clientset "k8s.io/client-go/kubernetes"
-	prom "k8s.io/perf-tests/clusterloader2/pkg/prometheus/clients"
+	prom "github.com/deekshith-elear/perf-tests/clusterloader2/pkg/prometheus/clients"
 )
 
 type AKSProvider struct {

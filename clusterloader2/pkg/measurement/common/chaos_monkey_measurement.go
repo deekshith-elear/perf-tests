@@ -22,10 +22,10 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/klog/v2"
-	"k8s.io/perf-tests/clusterloader2/api"
-	"k8s.io/perf-tests/clusterloader2/pkg/chaos"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement"
-	"k8s.io/perf-tests/clusterloader2/pkg/util"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/api"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/chaos"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/util"
 )
 
 const (

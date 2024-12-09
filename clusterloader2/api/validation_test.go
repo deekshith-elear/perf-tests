@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"k8s.io/apimachinery/pkg/util/validation/field"
-	"k8s.io/perf-tests/clusterloader2/pkg/errors"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/errors"
 )
 
 func isValid(errList field.ErrorList) bool {

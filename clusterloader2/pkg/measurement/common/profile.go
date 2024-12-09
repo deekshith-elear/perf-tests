@@ -28,11 +28,11 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/klog/v2"
-	"k8s.io/perf-tests/clusterloader2/pkg/framework/client"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement"
-	measurementutil "k8s.io/perf-tests/clusterloader2/pkg/measurement/util"
-	"k8s.io/perf-tests/clusterloader2/pkg/provider"
-	"k8s.io/perf-tests/clusterloader2/pkg/util"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/framework/client"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement"
+	measurementutil "github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement/util"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/provider"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/util"
 )
 
 const (

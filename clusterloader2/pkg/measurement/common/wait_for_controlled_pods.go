@@ -36,15 +36,15 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/klog/v2"
 
-	"k8s.io/perf-tests/clusterloader2/pkg/errors"
-	"k8s.io/perf-tests/clusterloader2/pkg/framework"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement"
-	measurementutil "k8s.io/perf-tests/clusterloader2/pkg/measurement/util"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement/util/checker"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement/util/informer"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement/util/runtimeobjects"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement/util/workerqueue"
-	"k8s.io/perf-tests/clusterloader2/pkg/util"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/errors"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/framework"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement"
+	measurementutil "github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement/util"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement/util/checker"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement/util/informer"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement/util/runtimeobjects"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement/util/workerqueue"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/util"
 )
 
 const (

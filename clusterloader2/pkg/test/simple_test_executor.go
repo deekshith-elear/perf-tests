@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement"
 
 	"k8s.io/apimachinery/pkg/api/meta"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -31,12 +31,12 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/klog/v2"
-	"k8s.io/perf-tests/clusterloader2/api"
-	"k8s.io/perf-tests/clusterloader2/pkg/config"
-	"k8s.io/perf-tests/clusterloader2/pkg/errors"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement/util/runtimeobjects"
-	"k8s.io/perf-tests/clusterloader2/pkg/state"
-	"k8s.io/perf-tests/clusterloader2/pkg/util"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/api"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/config"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/errors"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement/util/runtimeobjects"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/state"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/util"
 )
 
 const (

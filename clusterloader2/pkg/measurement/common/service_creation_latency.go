@@ -34,13 +34,13 @@ import (
 	"k8s.io/klog/v2"
 
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/perf-tests/clusterloader2/pkg/execservice"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement"
-	measurementutil "k8s.io/perf-tests/clusterloader2/pkg/measurement/util"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement/util/checker"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement/util/informer"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement/util/workerqueue"
-	"k8s.io/perf-tests/clusterloader2/pkg/util"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/execservice"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement"
+	measurementutil "github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement/util"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement/util/checker"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement/util/informer"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement/util/workerqueue"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/util"
 )
 
 const (

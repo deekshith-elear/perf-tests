@@ -30,7 +30,7 @@ import (
 )
 
 const (
-	pathToPrometheusRules = "$GOPATH/src/k8s.io/perf-tests/clusterloader2/pkg/prometheus/manifests/prometheus-rules.yaml"
+	pathToPrometheusRules = "$GOPATH/src/github.com/deekshith-elear/perf-tests/clusterloader2/pkg/prometheus/manifests/prometheus-rules.yaml"
 )
 
 func toModelSample(s promql.Sample) *model.Sample {

@@ -28,7 +28,7 @@ import (
 	"github.com/prometheus/common/model"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/klog/v2"
-	prom "k8s.io/perf-tests/clusterloader2/pkg/prometheus/clients"
+	prom "github.com/deekshith-elear/perf-tests/clusterloader2/pkg/prometheus/clients"
 )
 
 const (

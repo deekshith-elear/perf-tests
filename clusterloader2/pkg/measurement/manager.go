@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync"
 
-	"k8s.io/perf-tests/clusterloader2/pkg/config"
-	"k8s.io/perf-tests/clusterloader2/pkg/framework"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/config"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/framework"
 )
 
 // measurementManager manages all measurement executions.

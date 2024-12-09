@@ -31,7 +31,7 @@ import (
 	"k8s.io/client-go/tools/cache"
 	corev1helpers "k8s.io/component-helpers/scheduling/corev1"
 	"k8s.io/klog/v2"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement/util/informer"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement/util/informer"
 )
 
 const (

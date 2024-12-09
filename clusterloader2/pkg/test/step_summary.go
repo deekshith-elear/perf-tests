@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"k8s.io/perf-tests/clusterloader2/pkg/errors"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/errors"
 )
 
 type substepResult struct {

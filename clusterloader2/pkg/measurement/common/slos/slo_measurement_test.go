@@ -19,7 +19,7 @@ package slos
 import (
 	"testing"
 
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement"
 )
 
 func Test_getMeasurementConfig(t *testing.T) {

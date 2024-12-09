@@ -19,8 +19,8 @@ package api
 import (
 	"fmt"
 
-	"k8s.io/perf-tests/clusterloader2/pkg/framework/client"
-	"k8s.io/perf-tests/clusterloader2/pkg/util"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/framework/client"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/util"
 )
 
 // SetDefaults set the default configuration parameters.

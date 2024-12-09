@@ -38,7 +38,7 @@ import (
 	corev1helpers "k8s.io/component-helpers/scheduling/corev1"
 	v1helper "k8s.io/kubernetes/pkg/apis/core/v1/helper"
 	dsutil "k8s.io/kubernetes/pkg/controller/daemon/util"
-	"k8s.io/perf-tests/clusterloader2/pkg/framework/client"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/framework/client"
 )
 
 // ListRuntimeObjectsForKind returns objects of given gvr that satisfy given labelSelector and fieldSelector.

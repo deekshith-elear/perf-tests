@@ -17,7 +17,7 @@ limitations under the License.
 package util
 
 import (
-	"k8s.io/perf-tests/clusterloader2/pkg/provider"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/provider"
 	"net/url"
 )
 

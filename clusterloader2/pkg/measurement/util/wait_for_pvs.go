@@ -23,7 +23,7 @@ import (
 
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/klog/v2"
-	"k8s.io/perf-tests/clusterloader2/pkg/util"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/util"
 )
 
 // WaitForPVOptions is an options used by WaitForPVs methods.

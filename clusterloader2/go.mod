@@ -1,4 +1,4 @@
-module k8s.io/perf-tests/clusterloader2
+module github.com/deekshith-elear/perf-tests/clusterloader2
 
 // go 1.15+ is required by k8s 1.20 we use as dependency.
 go 1.22.4

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"k8s.io/perf-tests/clusterloader2/api"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/api"
 )
 
 // InstancesState represents state of object replicas.

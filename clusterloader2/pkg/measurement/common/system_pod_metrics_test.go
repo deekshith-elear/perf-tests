@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"gopkg.in/yaml.v2"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement"
 )
 
 func Test_subtractInitialRestartCounts(t *testing.T) {

@@ -22,11 +22,11 @@ import (
 
 	"github.com/prometheus/common/model"
 	"k8s.io/klog/v2"
-	"k8s.io/perf-tests/clusterloader2/pkg/errors"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement"
-	measurementutil "k8s.io/perf-tests/clusterloader2/pkg/measurement/util"
-	prom "k8s.io/perf-tests/clusterloader2/pkg/prometheus/clients"
-	"k8s.io/perf-tests/clusterloader2/pkg/util"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/errors"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement"
+	measurementutil "github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement/util"
+	prom "github.com/deekshith-elear/perf-tests/clusterloader2/pkg/prometheus/clients"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/util"
 )
 
 func CreatePrometheusMeasurement(gatherer Gatherer) measurement.Measurement {

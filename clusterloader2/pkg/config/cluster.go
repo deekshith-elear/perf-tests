@@ -19,7 +19,7 @@ package config
 import (
 	"time"
 
-	"k8s.io/perf-tests/clusterloader2/pkg/provider"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/provider"
 )
 
 // ClusterLoaderConfig represents all single test run parameters used by CLusterLoader.

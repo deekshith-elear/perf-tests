@@ -17,7 +17,7 @@ limitations under the License.
 package tuningset
 
 import (
-	"k8s.io/perf-tests/clusterloader2/api"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/api"
 )
 
 // TuningSet executes action sets.

@@ -23,10 +23,10 @@ import (
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/klog/v2"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement/util"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement/util/kubelet"
-	"k8s.io/perf-tests/clusterloader2/pkg/measurement/util/kubemark"
-	"k8s.io/perf-tests/clusterloader2/pkg/provider"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement/util"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement/util/kubelet"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement/util/kubemark"
+	"github.com/deekshith-elear/perf-tests/clusterloader2/pkg/provider"
 )
 
 type resourceGatherWorker struct {

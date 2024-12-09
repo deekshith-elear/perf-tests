@@ -17,7 +17,7 @@ limitations under the License.
 package network
 
 import (
-	measurementutil "k8s.io/perf-tests/clusterloader2/pkg/measurement/util"
+	measurementutil "github.com/deekshith-elear/perf-tests/clusterloader2/pkg/measurement/util"
 )
 
 const (
